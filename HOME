@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>CHACHACA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+body {
+  background: #c6121f;
+  color: white;
+}
+nav{
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0 0 50px;
+  overflow: hidden;
+  text-decoration: none;
+}
+li {
+  float: right;
+}
+li a {
+  text-align: center;
+  display: block;
+  padding: 20px;
+  font-family: futura;
+  color: white;
+  font-size: 8pt;
+
+}
+header {
+  float: left;
+  padding: 20px 0 0 20px;
+}
+header a img{
+  width: 200px
+}
+article {
+   text-align:center;
+  padding: 100px 200px 0 200px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+p{
+  font-size: 30pt;
+  font-family: 'Della Respira', serif;
+}
+p a{
+  color: white;
+  font-family: futura;
+}
+.wavy {
+  text-decoration: underline;
+  -webkit-text-decoration-color: salmon;
+  text-decoration-color: white;
+  -webkit-text-decoration-style: wavy;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 1px;
+  -webkit-text-underline-position: under;
+  text-underline-position: under;
+}
+</style>
+</head>
+
+
+<body>
+  <header>
+    <a href="http://chachaca.com">
+    <img alt="chachaca-logo" src="https://raw.githubusercontent.com/leejinki12/malamalam.github.io/master/chachaca-logo.png" >
+    </a>
+      </header>
+  <nav>
+    <ul>
+      <li><a href="http://chachaca.com/wedding-invitation">WEDDING INVITATION</a>
+        </li>
+      <li><a href="http://chachaca.com/branding-projects">BRANDING PROJECTS</a>
+          </li>
+      <li><a href="http://chachaca.com/about">ABOUT</a></li>      
+    </ul>
+  </nav>
+  
+<section>
+  <article>
+    <p>
+    CHACHACA! is a brand under
+      Indonesian graphic designer, <a href="http://instagram.com/laetitiacaee" class="wavy">Laetitia Caeli</a>. Focused on visual communication, 
+      CHACHACA! helps to create branding for <a href="http://chachaca.com/branding-projects" class="wavy">your product/service</a> and <a href="http://chachaca.com/wedding-invitation" class="wavy">your wedding dream</a>!
+   </p>
+  </article>
+</section>
+</body>
